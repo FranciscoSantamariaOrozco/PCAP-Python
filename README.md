@@ -1,13 +1,13 @@
 # PCAP-Python
-# Curso Python de Cisco Networking Academy
+## Curso Python de Cisco Networking Academy
 
-# Página del SEPE oferta del curso.
+### Página del SEPE oferta del curso.
 https://digitalizateplus.fundae.es/buscador/fichadigitalizate/1/2346
 
-# Página del curso en Cisco NetAcad.
+### Página del curso en Cisco NetAcad.
 https://www.netacad.com/portal/web/self-enroll/m/course-1443411
 
-# Página de Python Institute 
+### Página de Python Institute 
 https://pythoninstitute.org/pcep
 https://pythoninstitute.org/pcap
 
@@ -47,7 +47,7 @@ Nivel: Intermedio
 Logros: Certificación alineada
 
 
-# Comienzo del curso
+## Comienzo del curso
 Fundamentos de Python (v.2.1) – Acerca del Contenido del Curso
 
 El curso PCAP: Fundamentos de Programación en Python (forma corta: Fundamentos de Python) cubre todos los conceptos básicos de programación en Python, 
@@ -73,7 +73,7 @@ https://pythoninstitute.org/
 
 
 
-# Preguntas Frecuentes (FAQs)
+## Preguntas Frecuentes (FAQs)
 Por favor lea estas preguntas frecuentes y revise el material del curso antes de contactar al personal del OpenEDG Python Institute. Gracias.
 Última actualización: 1 de septiembre de 2021
 Versión del Curso: 2.1
