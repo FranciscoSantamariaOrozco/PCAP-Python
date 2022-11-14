@@ -10,9 +10,9 @@ La diferencia entre compilación e interpretación.
 
 Qué es Python, cómo se posiciona entre otros lenguajes de programación y qué 
 distingue las diferentes versiones de Python.
-
-
-
+  
+  
+  
 ## **¿Cómo funciona un programa de computadora?**
 Este curso tiene como objetivo explicar el lenguaje Python y para que se utiliza. Vamos a comenzar desde los fundamentos básicos.
 
@@ -43,8 +43,8 @@ Estas cuatro acciones simples forman un **programa**. Por supuesto, estos ejempl
 la computadora puede entender, pero son lo suficientemente buenos como para traducirlos a un lenguaje que la computadora pueda aceptar.
 
 La palabra clave es el **lenguaje**.
-
-
+  
+  
 
 ## **Lenguajes naturales frente a lenguajes de programación**
 Un lenguaje es un medio (y una herramienta) para expresar y registrar pensamientos. Hay muchos lenguajes a nuestro alrededor. 
@@ -70,7 +70,7 @@ Ninguna computadora es actualmente capaz de crear un nuevo idioma. Sin embargo, 
 personas también usan varios idiomas muy diferentes, pero estos idiomas se crearon ellos mismos. Además, todavía están evolucionando.
 
 Cada día se crean nuevas palabras y desaparecen las viejas. Estos lenguajes se llaman **lenguajes naturales**.
-
+  
 
 
 ## **¿Qué compone a un lenguaje?**
@@ -133,12 +133,12 @@ todo el proceso sea rápido y eficiente.
 
 Existen dos formas diferentes de **transformar un programa de un lenguaje de programación de alto nivel a un lenguaje de máquina**:
 
-- ~~~Compilación~~~: el programa fuente se traduce una vez (sin embargo, esta ley debe repetirse cada vez que se modifique el código
+- ***Compilación***: el programa fuente se traduce una vez (sin embargo, esta ley debe repetirse cada vez que se modifique el código
 fuente) obteniendo un archivo (por ejemplo, un archivo .exe si el código esta diseñado para ejecutarse en MS Windows) que contiene
 el código máquina; ahora puedes distribuir el archivo en todo el mundo; el programa que realiza esta traducción se llama compilador o
 traductor.
 
-- ~~~Interpretación~~~: tú (o cualquier usuario del código) puedes traducir el programa fuente cada vez que se ejecute; el programa
+- ***Interpretación***: tú (o cualquier usuario del código) puedes traducir el programa fuente cada vez que se ejecute; el programa
 que realiza este tipo de transformación se denomina intérprete, ya que interpreta el código cada vez que está destinado a ejecutarse;
 también significa que no puede distribuir el código fuente tal como está, por que el usuario final también necesita que el intérprete lo
 ejecute.
@@ -199,7 +199,9 @@ lo hubiera, uno de estos modelos habría dejado de existir hace mucho tiempo. Am
     <td>Ventajas</td>
     <td>
         - La ejecución del código traducido suele ser más rápida.  
+          
         - Sólo el programador debe tener el compilador; el usuario final puede usar el código sin él.  
+          
         - El código traducido se almacena en lenguaje máquina, ya que es muy difícil de entender, es probable que tus propios inventos y trucos de programación sigan siendo un secreto.  
     </td>
     <td>
@@ -209,7 +211,8 @@ lo hubiera, uno de estos modelos habría dejado de existir hace mucho tiempo. Am
   <tr>
     <td>Desentajas</td>
     <td>
-      - La compilación en sí misma puede llevar mucho tiempo; es posible que no puedas ejecutar tu código inmediatamente después de cualquier modificación.  
+        - La compilación en sí misma puede llevar mucho tiempo; es posible que no puedas ejecutar tu código inmediatamente después de cualquier modificación.  
+        
         - Tienes que tener tantos compiladores como plataformas de hardware en las que deseas que se ejecute tu código.  
     </td>
     <td>**INTERPRETACIÓN**</td>
