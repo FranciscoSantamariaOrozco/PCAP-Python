@@ -190,30 +190,55 @@ lo hubiera, uno de estos modelos habría dejado de existir hace mucho tiempo. Am
 
 ## La compilación frente a la interpretación - Ventajas y desventajas
 
-<table style="text-align: center;">
+<table style="text-align: center; border: dotted;">
   <tr>
     <td style="width: 20%;"></td>
     <td style="width: 40%;">**Compilación**</td>
     <td style="width: 40%;">**Interpretación**</td>
   </tr>
+
   <tr>
-    <td>Ventajas</td>
+    <td rowspan="3" style="text-align: center; border: dotted;">Ventajas</td>
     <td>
-        - La ejecución del código traducido suele ser más rápida.  
-        - Sólo el programador debe tener el compilador; el usuario final puede usar el código sin él.  
-        - El código traducido se almacena en lenguaje máquina, ya que es muy difícil de entender, es probable que tus propios inventos y trucos de programación sigan siendo un secreto.  
+      - La ejecución del código traducido suele ser más rápida.
     </td>
     <td>
-        
+      - Puedes ejecutar el código en cuanto lo completes; no hay fases adicionales de traducción.
     </td>
   </tr>
+
   <tr>
-    <td>Desentajas</td>
     <td>
-        - La compilación en sí misma puede llevar mucho tiempo; es posible que no puedas ejecutar tu código inmediatamente después de cualquier modificación.  
-        - Tienes que tener tantos compiladores como plataformas de hardware en las que deseas que se ejecute tu código.  
+      - Sólo el programador debe tener el compilador; el usuario final puede usar el código sin él.
     </td>
-    <td>**INTERPRETACIÓN**</td>
+    <td>
+      - El código se almacena utilizando el lenguaje de programación, no el de la máquina; esto significa que puede ejecutarse en computadoras que utilizan diferentes lenguajes máquina; no se compila el código por separado para cada arquitectura diferente.
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      - El código traducido se almacena en lenguaje máquina, ya que es muy difícil de entender, es probable que tus propios inventos y trucos de programación sigan siendo un secreto.
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="3" style="text-align: center; border: dotted;">Desentajas</td>
+    <td>
+      - La compilación en sí misma puede llevar mucho tiempo; es posible que no puedas ejecutar tu código inmediatamente después de cualquier modificación.  
+    </td>
+    <td>
+      - No esperes que la interpretación incremente tu código a alta velocidad: tu código compartirá la potencia de la computadora con el intérprete, por lo que no puede ser realmente rápido.
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      - Tienes que tener tantos compiladores como plataformas de hardware en las que deseas que se ejecute tu código.  
+    </td>
+    <td>
+      - Tanto tú como el usuario final deben tener el intérprete para ejecutar el código.
+    </td>
   </tr>
 </table>
 
