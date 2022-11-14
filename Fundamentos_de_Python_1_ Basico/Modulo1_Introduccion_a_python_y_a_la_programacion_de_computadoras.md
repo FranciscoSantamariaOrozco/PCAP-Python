@@ -196,23 +196,23 @@ lo hubiera, uno de estos modelos habría dejado de existir hace mucho tiempo. Am
     <td style="width: 40%;">**Interpretación**</td>
   </tr>
   <tr>
-    <td colspan="3" style="">Ventajas</td>
-    <td style="width: 40%;">
-        - La ejecución del código traducido suele ser más rápida.
-        - Sólo el programador debe tener el compilador; el usuario final puede usar el código sin él.
-        - El código traducido se almacena en lenguaje máquina, ya que es muy difícil de entender, es 
-        probable que tus propios inventos y trucos de programación sigan siendo un secreto.
+    <td>Ventajas</td>
+    <td>
+        - La ejecución del código traducido suele ser más rápida.  
+        - Sólo el programador debe tener el compilador; el usuario final puede usar el código sin él.  
+        - El código traducido se almacena en lenguaje máquina, ya que es muy difícil de entender, es probable que tus propios inventos y trucos de programación sigan siendo un secreto.  
     </td>
-    <td style="width: 40%;">
-        - La compilación en sí misma puede llevar mucho tiempo; es posible que no puedas ejecutar tu
-        código inmediatamente después de cualquier modificación.
-        - Tienes que tener tantos compiladores como plataformas de hardware en las que deseas que se ejecute tu código.
+    <td>
+        
     </td>
   </tr>
   <tr>
-    <td  colspan="3" style="">Desentajas</td>
-    <td style="width: 40%;">**COMPILACIÓN**</td>
-    <td style="width: 40%;">**INTERPRETACIÓN**</td>
+    <td>Desentajas</td>
+    <td>
+      - La compilación en sí misma puede llevar mucho tiempo; es posible que no puedas ejecutar tu código inmediatamente después de cualquier modificación.  
+        - Tienes que tener tantos compiladores como plataformas de hardware en las que deseas que se ejecute tu código.  
+    </td>
+    <td>**INTERPRETACIÓN**</td>
   </tr>
 </table>
 
