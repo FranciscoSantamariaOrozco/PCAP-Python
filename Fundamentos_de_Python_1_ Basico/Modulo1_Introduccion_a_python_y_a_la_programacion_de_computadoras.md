@@ -1,6 +1,6 @@
-# Fundamentos de Python 1:
-# Módulo 1
-# Introducción a Python y a la programación de computadoras.
+# Fundamentos de Python 1
+## Módulo 1
+### Introducción a Python y a la programación de computadoras.
 
 En este módulo, aprenderás sobre:
 
@@ -34,10 +34,10 @@ necesitas la velocidad.
 Naturalmente, la computadora podrá calcular esto, pero la computadora no es consciente de cosas como la distancia, la velocidad o 
 el tiempo. Por lo tanto, es necesario instruir a la computadora para que:
 
--Acepte un número que represente la distancia.
--Acepte un número que represente el tiempo de viaje.
--Divida el valor anterior entre el segundo y almacene el resultado en la memoria.
--Muestre el resultado (representando la velocidad promedio) en un formato legible.
+- Acepte un número que represente la distancia.
+- Acepte un número que represente el tiempo de viaje.
+- Divida el valor anterior entre el segundo y almacene el resultado en la memoria.
+- Muestre el resultado (representando la velocidad promedio) en un formato legible.
 
 Estas cuatro acciones simples forman un programa. Por supuesto, estos ejemplos no están formalizados, y están muy lejos de lo que 
 la computadora puede entender, pero son lo suficientemente buenos como para traducirlos a un lenguaje que la computadora pueda aceptar.
@@ -72,18 +72,18 @@ Cada día se crean nuevas palabras y desaparecen las viejas. Estos lenguajes se 
 # ¿Qué compone a un lenguaje?
 Podemos decir que cada lenguaje (máquina o natural, no importa) consta de los siguientes elementos:
 
--Un alfabeto: un conjunto de símbolos utilizados para formar palabras de un determinado lenguaje (por ejemplo, el alfabeto 
+- Un alfabeto: un conjunto de símbolos utilizados para formar palabras de un determinado lenguaje (por ejemplo, el alfabeto 
 latino para el inglés, el alfabeto cirílico para el ruso, el kanji para el japonés, y así sucesivamente).
 
--Un léxico: (también conocido como diccionario) un conjunto de palabras que el lenguaje ofrece a sus usuarios (por ejemplo, la 
+- Un léxico: (también conocido como diccionario) un conjunto de palabras que el lenguaje ofrece a sus usuarios (por ejemplo, la 
 palabra "computadora" proviene del diccionario en inglés, mientras que "cmoptrue" no; la palabra "chat" está presente en los 
 diccionarios de inglés y francés, pero sus significados son diferentes.
 
--Una sintaxis: un conjunto de reglas (formales o informales, escritas o interpretadas intuitivamente) utilizadas para precisar si una 
+- Una sintaxis: un conjunto de reglas (formales o informales, escritas o interpretadas intuitivamente) utilizadas para precisar si una 
 determinada cadena de palabras forma una oración válida (por ejemplo, "Soy una serpiente" es una frase sintácticamente 
 correcta, mientras que "Yo serpiente soy una" no lo es).
 
--Una semántica: un conjunto de reglas que determinan si una frase tiene sentido (por ejemplo, "Me comí una dona" tiene sentido, 
+- Una semántica: un conjunto de reglas que determinan si una frase tiene sentido (por ejemplo, "Me comí una dona" tiene sentido, 
 pero "Una dona me comió" no lo tiene).
 
 La IL es, de hecho, el alfabeto de un lenguaje máquina. Este es el conjunto de símbolos más simple y principal que podemos usar 
@@ -110,12 +110,12 @@ efecto podría ser diferente en cada caso específico: depende de la imaginació
 
 Por supuesto, tal composición tiene que ser correcta en muchos sentidos, tales como: 
 
--Alfabéticamente: un programa debe escribirse en una secuencia de comandos reconocible, por ejemplo, el Romano, Cirílico, etc.
+- Alfabéticamente: un programa debe escribirse en una secuencia de comandos reconocible, por ejemplo, el Romano, Cirílico, etc.
 
--Léxicamente: cada lenguaje de programación tiene su diccionario y necesitas dominarlo; afortunadamente, es mucho más
+- Léxicamente: cada lenguaje de programación tiene su diccionario y necesitas dominarlo; afortunadamente, es mucho más
 simple y más pequeño que el diccionario de cualquier lenguaje natural.
 
--Sintácticamente: cada idioma tiene sus reglas y deben ser obedecidas.
+- Sintácticamente: cada idioma tiene sus reglas y deben ser obedecidas.
 
 - Semánticamente: El programa tiene que tener sentido.
 
@@ -168,8 +168,8 @@ se intenta usar la entidad, no donde se introdujo el nombre de la nueva entidad.
 En otras palabras, la razón real generalmente se ubica un poco antes en el código, por ejemplo, en el lugar donde se tuvo que informar
 al intérprete de que usarías la entidad del nombre.
 
-Si la línea se ve bien, el intérprete intenta ejecutarla (nota: cada línea generalmente se ejecuta por separado, por lo que el trío "Lectura
-- Verificación - Ejecución", puede repetirse muchas veces, más veces que el número real de líneas en el archivo fuente, debido a que
+Si la línea se ve bien, el intérprete intenta ejecutarla (nota: cada línea generalmente se ejecuta por separado, por lo que el trío "Lectura - 
+Verificación - Ejecución", puede repetirse muchas veces, más veces que el número real de líneas en el archivo fuente, debido a que
 algunas partes del código pueden ejecutarse más de una vez).
 
 También es posible que una parte significativa del código se ejecute con éxito antes de que el intérprete encuentre un error. Este es el
@@ -181,11 +181,11 @@ lo hubiera, uno de estos modelos habría dejado de existir hace mucho tiempo. Am
 
 # La compilación frente a la interpretación - Ventajas y desventajas
 
-<table style="width: 100%; text-align: center;">
+<table style="text-align: center;">
   <tr>
-    <td style="width: 33%;">Primera columna</td>
-    <td style="width: 33%;">Segunda columna</td>
-    <td style="width: 33%;">Tercera columna</td>
+    <td style="width: 20%;"></td>
+    <td style="width: 40%;">COMPILACIÓN</td>
+    <td style="width: 40%;">Tercera columna</td>
   </tr>
   <tr>
     <td colspan="3" style="width: 100%; padding-top: 50px;">Más contenido</td>
