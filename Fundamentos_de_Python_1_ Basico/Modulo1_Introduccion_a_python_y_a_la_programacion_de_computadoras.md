@@ -9,10 +9,11 @@ cómo se ejecuta el programa, cómo se define y construye el lenguaje de program
 La diferencia entre compilación e interpretación.
 
 Qué es Python, cómo se posiciona entre otros lenguajes de programación y qué 
-distingue las diferentes versiones de Python.
-  
-  
-  
+distingue las diferentes versiones de Python. 
+
+
+
+
 ## **¿Cómo funciona un programa de computadora?**
 Este curso tiene como objetivo explicar el lenguaje Python y para que se utiliza. Vamos a comenzar desde los fundamentos básicos.
 
