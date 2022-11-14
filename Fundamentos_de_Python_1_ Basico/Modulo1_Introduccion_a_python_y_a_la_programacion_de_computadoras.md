@@ -199,9 +199,9 @@ lo hubiera, uno de estos modelos habría dejado de existir hace mucho tiempo. Am
   <tr>
     <td>Ventajas</td>
     <td>
-        - La ejecución del código traducido suele ser más rápida.   
+        - La ejecución del código traducido suele ser más rápida.  
         - Sólo el programador debe tener el compilador; el usuario final puede usar el código sin él.  
-        - El código traducido se almacena en lenguaje máquina, ya que es muy difícil de entender, es probable que tus propios inventos y trucos de programación sigan siendo un secreto.
+        - El código traducido se almacena en lenguaje máquina, ya que es muy difícil de entender, es probable que tus propios inventos y trucos de programación sigan siendo un secreto.  
     </td>
     <td>
         
