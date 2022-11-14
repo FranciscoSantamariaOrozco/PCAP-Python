@@ -12,6 +12,7 @@ Qué es Python, cómo se posiciona entre otros lenguajes de programación y qué
 distingue las diferentes versiones de Python.
 
 
+
 ## **¿Cómo funciona un programa de computadora?**
 Este curso tiene como objetivo explicar el lenguaje Python y para que se utiliza. Vamos a comenzar desde los fundamentos básicos.
 
@@ -43,6 +44,8 @@ la computadora puede entender, pero son lo suficientemente buenos como para trad
 
 La palabra clave es el **lenguaje**.
 
+
+
 ## **Lenguajes naturales frente a lenguajes de programación**
 Un lenguaje es un medio (y una herramienta) para expresar y registrar pensamientos. Hay muchos lenguajes a nuestro alrededor. 
 Algunos de ellos no requieren hablar ni escribir, como el lenguaje corporal. Es posible expresar tus sentimientos más profundos de 
@@ -67,6 +70,8 @@ Ninguna computadora es actualmente capaz de crear un nuevo idioma. Sin embargo, 
 personas también usan varios idiomas muy diferentes, pero estos idiomas se crearon ellos mismos. Además, todavía están evolucionando.
 
 Cada día se crean nuevas palabras y desaparecen las viejas. Estos lenguajes se llaman **lenguajes naturales**.
+
+
 
 ## **¿Qué compone a un lenguaje?**
 Podemos decir que cada lenguaje (máquina o natural, no importa) consta de los siguientes elementos:
@@ -103,6 +108,7 @@ Un programa escrito en un lenguaje de programación de alto nivel se llama **có
 ejecutado por las computadoras). Del mismo modo, el archivo que contiene el código fuente se llama **archivo fuente**.
 
 
+
 ## **La compilación frente a la interpretación**
 La programación de computadora es el aco de establecer una secuencia de instrucciones con la cual se causará el efecto deseado. El 
 efecto podría ser diferente en cada caso específico: depende de la imaginación, el conocimiento y la experiencia del programador.
@@ -127,12 +133,12 @@ todo el proceso sea rápido y eficiente.
 
 Existen dos formas diferentes de **transformar un programa de un lenguaje de programación de alto nivel a un lenguaje de máquina**:
 
-- 'Compilación': el programa fuente se traduce una vez (sin embargo, esta ley debe repetirse cada vez que se modifique el código
+- ~~~Compilación~~~: el programa fuente se traduce una vez (sin embargo, esta ley debe repetirse cada vez que se modifique el código
 fuente) obteniendo un archivo (por ejemplo, un archivo .exe si el código esta diseñado para ejecutarse en MS Windows) que contiene
 el código máquina; ahora puedes distribuir el archivo en todo el mundo; el programa que realiza esta traducción se llama compilador o
 traductor.
 
-- 'Interpretación': tú (o cualquier usuario del código) puedes traducir el programa fuente cada vez que se ejecute; el programa
+- ~~~Interpretación~~~: tú (o cualquier usuario del código) puedes traducir el programa fuente cada vez que se ejecute; el programa
 que realiza este tipo de transformación se denomina intérprete, ya que interpreta el código cada vez que está destinado a ejecutarse;
 también significa que no puede distribuir el código fuente tal como está, por que el usuario final también necesita que el intérprete lo
 ejecute.
@@ -142,6 +148,8 @@ de estas dos categorías.
 
 Existen muy pocos idiomas que puedan ser tanto compilados como interpretados. Por lo general, un lenguaje de programación se
 proyecta con este factor en la mente de sus constructores: Se compilará o se interpretará?
+
+
 
 ## **Qué hace realmente el intérprete?**
 Supongamos una vez más que has escrito un programa. Ahora , existe como un **archivo de computadora**: un programa de
@@ -178,21 +186,31 @@ Puedes preguntar ahora, cuál es mejor? El modelo de compilación o el modelo de
 lo hubiera, uno de estos modelos habría dejado de existir hace mucho tiempo. Ambos tienen sus ventajas y sus desventajas.
 
 
+
 ## La compilación frente a la interpretación - Ventajas y desventajas
 
 <table style="text-align: center;">
   <tr>
     <td style="width: 20%;"></td>
-    <td style="width: 40%;">**COMPILACIÓN**</td>
-    <td style="width: 40%;">**INTERPRETACIÓN**</td>
+    <td style="width: 40%;">**Compilación**</td>
+    <td style="width: 40%;">**Interpretación**</td>
   </tr>
   <tr>
-    <td colspan="3" style="padding-top: 50px;">Más contenido</td>
-    <td style="width: 40%;">**COMPILACIÓN**</td>
-    <td style="width: 40%;">**INTERPRETACIÓN**</td>
+    <td colspan="3" style="">Ventajas</td>
+    <td style="width: 40%;">
+        - La ejecución del código traducido suele ser más rápida.
+        - Sólo el programador debe tener el compilador; el usuario final puede usar el código sin él.
+        - El código traducido se almacena en lenguaje máquina, ya que es muy difícil de entender, es 
+        probable que tus propios inventos y trucos de programación sigan siendo un secreto.
+    </td>
+    <td style="width: 40%;">
+        - La compilación en sí misma puede llevar mucho tiempo; es posible que no puedas ejecutar tu
+        código inmediatamente después de cualquier modificación.
+        - Tienes que tener tantos compiladores como plataformas de hardware en las que deseas que se ejecute tu código.
+    </td>
   </tr>
   <tr>
-    <td  colspan="3" style="padding-top: 50px;">Pie de página</td>
+    <td  colspan="3" style="">Desentajas</td>
     <td style="width: 40%;">**COMPILACIÓN**</td>
     <td style="width: 40%;">**INTERPRETACIÓN**</td>
   </tr>
