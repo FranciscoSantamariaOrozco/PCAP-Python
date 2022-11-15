@@ -198,7 +198,7 @@ lo hubiera, uno de estos modelos habría dejado de existir hace mucho tiempo. Am
   </tr>
 
   <tr>
-    <td rowspan="3" style="text-align: center; border: dotted;">Ventajas</td>
+    <td rowspan="3" style="text-align: center;">Ventajas</td>
     <td>
       - La ejecución del código traducido suele ser más rápida.
     </td>
@@ -211,7 +211,7 @@ lo hubiera, uno de estos modelos habría dejado de existir hace mucho tiempo. Am
     <td>
       - Sólo el programador debe tener el compilador; el usuario final puede usar el código sin él.
     </td>
-    <td>
+    <td rowspan="2">
       - El código se almacena utilizando el lenguaje de programación, no el de la máquina; esto significa que puede ejecutarse en computadoras que utilizan diferentes lenguajes máquina; no se compila el código por separado para cada arquitectura diferente.
     </td>
   </tr>
