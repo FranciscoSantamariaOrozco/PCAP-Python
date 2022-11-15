@@ -83,14 +83,16 @@ ingeniería; Ipython, un shell interactivo que permite la edición y grabación 
 Y muchos otros proyectos y herramientas de desarrollo.
 
 
-# Certifícate en PCEP
+# Certifícate en PCEP  
+
+![insignia_pcep](../img/insignia_pcep.jpg)
+
 Al finalizar Fundamentos de Python Parte 1, estarás preparado para intentar obtener la certificación 
 PCEP – Certified Entry-Level Python Programmer.
 
 La certificación PCEP – Certified Entry-Level Python Programmer demuestra que estás familiarizado con conceptos universales de 
 programación informática, como tipos de datos, contenedores, funciones, condiciones y bucles, así como los aspectos más 
-importantes de la sintaxis, semántica y el entorno de ejecución del lenguaje de programación Python.
-![insignia_pcep](../img/insignia_pcep.jpg)
+importantes de la sintaxis, semántica y el entorno de ejecución del lenguaje de programación Python.  
 
 obtener la certificación PCEP asegura que estás familiarizado con los medios más esenciales proporcionados por Python 3, 
 que te permiten comenzar tus propios estudios en un nivel intermedio y continuar con tu desarrollo profesional.
