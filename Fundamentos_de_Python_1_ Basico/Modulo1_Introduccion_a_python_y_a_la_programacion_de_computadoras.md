@@ -176,7 +176,9 @@ Por ejemplo, si intentas usar una entidad de un nombre desconocido, causará un 
 se intenta usar la entidad, no donde se introdujo el nombre de la nueva entidad.
 
 En otras palabras, la razón real generalmente se ubica un poco antes en el código, por ejemplo, en el lugar donde se tuvo que informar
-al intérprete de que usarías la entidad del nombre.
+al intérprete de que usarías la entidad del nombre.  
+
+![concepto_compilacion_2](../img/concepto_compilacion_2.jpg)
 
 Si la línea se ve bien, el intérprete intenta ejecutarla (nota: cada línea generalmente se ejecuta por separado, por lo que el trío "Lectura - 
 Verificación - Ejecución", puede repetirse muchas veces, más veces que el número real de líneas en el archivo fuente, debido a que
@@ -244,3 +246,58 @@ lo hubiera, uno de estos modelos habría dejado de existir hace mucho tiempo. Am
   </tr>
 </table>
 
+## **Qué es Python?**
+Python es un lenguaje de programación de alto nivel, interpretado, orientado a objetos y de uso generalizado con semántica dinámica,
+que se utiliza para la programación de propósito general.
+
+Aunque puede que conozcas a la pitón como una gran serpiente, el nombre del lenguaje de programación Python proviene de una 
+vieja serie de comedia de la BBC llamada **Monty Phyton's Flying Circus**.
+
+En el apogeo de su éxito, el equipo de Monty Python es considerado uno de los dos nutrientes fundamentales para un programador (el otro es la pizza), el creador
+de Python nombró el lenguaje en honor al programa de televisión.
+
+## **Quién creó Python?
+Una de las grandes características sorprendentes de Python es el hecho de que enrealidad es el trabajo de una persona. Por lo general, los
+grandes lenguajes de programación son desarrollados y publicados por grandes compañias que emplean a muchos profesionales, y 
+debido a las normas de derechos de autor, es muy difícil nombrar a cualquiera de las personas involucradas en el protecto. Python es
+una excepción.
+
+No existen muchos lenguajes de programación cuyos autores sean conocidos por su nombre. Python fue creado por [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
+nacido en 1956 en Haarlem, Países Bajos. Por supuesto, Guido van Rossum no desarrolló y evolucionó todos los 
+componentes de Python.
+
+![guido_van_rossum](../img/guido_van_rossum.jpg)
+
+LA velocidad con la que Python se ha exendido por todo el mundo es el resultado del trabajo continuo de miles de (muy a menudo
+anónimos) programadores, testers, usuarios (muchos de ellos no son especialistas en TI) y entusiastas, pero hay que decir que la 
+primera idea (la semilla de la que brotó Python) llegó a una cabeza: la de Guido.
+
+## **Un proyecto de programación por hobby**
+Las circunstancias en las que se creó Python son un poco desconcertantes. Según Guido van Rosssum:  
+
+'''
+En Diciembre de 1989, estaba buscando un proyecto de programación de "pasatiempo" que me mantendría ocupado durante la
+semana de navidad. Mi oficina (...) estaría cerrada, pero tenía una computadora en casa y no mucho más en mis manos. Decidí
+escribir un intérprete para el nuevo lenguaje de scripting en el que había estado pensando últimamente: un descendiente de
+ABC que atraería a los hackers de Unix/C. Elegí Python como el título de trabajo para el proyecto, estando en un estado de ánimo
+ligeramente irreverente (y un gran fanático de Monty Python's Flying Circus).
+*- Guido van Rossum*
+'''
+
+## **Los objetivos de Python**
+En 1999, Guido van Rossum definió sus objetivos para Python:
+
+- Un lenguaje **fácil e intuitivo** tan poderoso como los de los principales competidores.
+- De **código abierto**, para que cualquiera pueda contribuir a su desarrollo.
+- El código que es tan **comprensible** como el inglés simple.
+- **Adecuado para tareas cotidianas**, permitiendo tiempos de desarrollo cortos.
+
+Unos 20 años después, está claro que todas esas intenciones se han cumplido. Algunas fuentes dicen que Python es el lenguaje de
+programación más popular del mundo, mientras que otros afirman que es el tercero o el quinto.
+
+![ministry_of_silly_walks](../img/ministry_of_silly_walks.jpg)  
+
+De cualquier manera, todavía ocupa un alto rango en el top ten de [PYPL PopularitY of Programming Language y el TIOBE Programming Community Index](https://pypl.github.io/PYPL.html).
+
+Python no es una lengua joven. **Es maduro y digno de confianza**. No es una maravilla de un solo hit. Es una estrella brillante en el
+firmamento de la programación, y el tiempo dedicado a aprender Python es muy buena inversión. 
