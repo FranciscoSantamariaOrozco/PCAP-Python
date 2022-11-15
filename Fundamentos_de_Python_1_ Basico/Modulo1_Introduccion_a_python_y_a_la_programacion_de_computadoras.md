@@ -11,7 +11,7 @@ La diferencia entre compilación e interpretación.
 Qué es Python, cómo se posiciona entre otros lenguajes de programación y qué 
 distingue las diferentes versiones de Python. 
 
-
+![modulo_1](../img/modulo_1.jpg)
 
 
 ## **¿Cómo funciona un programa de computadora?**
@@ -19,6 +19,8 @@ Este curso tiene como objetivo explicar el lenguaje Python y para que se utiliza
 
 Un programa hace que una computadora sea utilizable. Sin un programa, una computadora, incluso la más poderosa, no es más que 
 un objeto. Del mismo modo, sin un pianista, un piano no es más que una caja de madera.
+
+![computadora_logo](../img/computadora_logo.jpg)
 
 Las computadoras pueden realizar tareas muy complejas, pero esta habilidad no es innata. La naturaleza de una computadora 
 es bastante diferente.
@@ -72,7 +74,7 @@ personas también usan varios idiomas muy diferentes, pero estos idiomas se crea
 
 Cada día se crean nuevas palabras y desaparecen las viejas. Estos lenguajes se llaman **lenguajes naturales**.
   
-
+![concepto_compilacion](../img/concepto_compilacion.jpg)
 
 ## **¿Qué compone a un lenguaje?**
 Podemos decir que cada lenguaje (máquina o natural, no importa) consta de los siguientes elementos:
