@@ -9,7 +9,7 @@ que te permita **diseñar**, **escribir**, **depurar** y **ejecutar** programas 
 El curso te preparará para trabajos y carreras relacionadas con el ampliamente conocido **desarrollo de software**, 
 que incluye no solo la creación de código en sí como desarrollador junior, sino también el **diseño de sistemas y pruebas de software**.
 
-![fundamentos_de_python_1] (../img/fundamentos_de_python_1.jpg)
+![fundamentos_de_python_1] (/../img/fundamentos_de_python_1.jpg)
 
 # Temario del Curso
 En este curso aprenderás:
