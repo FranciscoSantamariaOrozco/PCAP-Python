@@ -1,13 +1,13 @@
 # Bienvenido a Fundamentos de Python 1
-Este curso es el primero en una serie de 2 cursos que te prepararán para los exámenes de certificación 
-PCEP - Certified Entry-Level Python Programmer y PCAP: Certified Associate in Python Programming.
+Este curso es **el primero en una serie de 2 cursos** que te prepararán para los exámenes de certificación 
+[PCEP - Certified Entry-Level Python Programmer](https://pythoninstitute.org/pcep) y [PCAP: Certified Associate in Python Programming](https://pythoninstitute.org/pcap).
 
 El objetivo principal del curso es guiarte desde un estado de analfabetismo completo en programación a un nivel de conocimiento de programación 
-que te permita diseñar, escribir, depurar y ejecutar programas codificados en el lenguaje Python, y comprender los conceptos 
-básicos de la tecnología del desarrollo de software.
+que te permita **diseñar**, **escribir**, **depurar** y **ejecutar** programas codificados en el lenguaje Python, y comprender los **conceptos** 
+**básicos de la tecnología del desarrollo de software**.
 
-El curso te preparará para trabajos y carreras relacionadas con el ampliamente conocido desarrollo de software, 
-que incluye no solo la creación de código en sí como desarrollador junior, sino también el diseño de sistemas y pruebas de software.
+El curso te preparará para trabajos y carreras relacionadas con el ampliamente conocido **desarrollo de software**, 
+que incluye no solo la creación de código en sí como desarrollador junior, sino también el **diseño de sistemas y pruebas de software**.
 
 
 # Temario del Curso
@@ -22,13 +22,13 @@ A diseñar, escribir, probar y depurar tus propios programas Python.
 
 
 # El curso se divide en 4 módulos:
-Módulo 1
+### **Módulo 1**
 Introducción a Python y a la programación de computadora.
-Módulo 2
+### **Módulo 2**
 Tipos de datos, variables, operaciones básicas de entrada y salida, y operadores básicos.
-Módulo 3
+### **Módulo 3**
 Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operaciones lógicas y de bit a bit.
-Módulo 4
+### **Módulo 4**
 Funciones, tuplas, diccionarios y procesamiento de datos.
 
 
@@ -40,10 +40,10 @@ grande y muy activa, siempre feliz de ayudar.
 
 También hay un par de factores que hacen que Python sea excelente para el aprendizaje:
 
--Es fácil de aprender: el tiempo necesario para aprender Python es más corto que para muchos otros lenguajes; esto significa que 
+- Es fácil de aprender: el tiempo necesario para aprender Python es más corto que para muchos otros lenguajes; esto significa que 
 es posible iniciar la programación real más rápido.
--Es fácil de usar para escribir software nuevo; a menudo es posible escribir código más rápido cuando se usa Python.
--Es fácil de obtener, instalar e implementar: Python es gratuito, abierto y multiplataforma; no todos los lenguajes pueden presumir de eso.
+- Es fácil de usar para escribir software nuevo; a menudo es posible escribir código más rápido cuando se usa Python.
+- Es fácil de obtener, instalar e implementar: Python es gratuito, abierto y multiplataforma; no todos los lenguajes pueden presumir de eso.
 
 Completar este curso puede ser un trampolín para aprender cualquier otro lenguaje de programación y para explorar tecnologías que 
 usan a Python como base (por ejemplo, Django). Este curso se distingue por su asequibilidad, amigabilidad y apertura para el estudiante.
@@ -61,12 +61,12 @@ código abierto, por ejemplo, OpenRTS, PySol, Metin 2 o Frets On Fire, juegos fa
 medida, en Python. ¿Otros ejemplos?
 
 Aplicaciones de Internet (BitTorrent, Jogger Publishing Assistant, TheCircle, TwistedMatrix)
-3D CAD/CAM (FreeCAD, Fandango, Blender, Vintech RCAM)
-Aplicaciones Empresariales (Odoo, Tryton, Picalo, LinOTP 2, RESTx)
-Aplicaciones de Imagen (Gnofract 4D, Gogh, imgSeek, MayaVi, VPython)
-Aplicaciones Móviles (Aarlogic C05/3, AppBackup, Pyroute)
-Aplicaciones de Oficina (calibre, faces, Notalon, pyspread)
-Administradores de Información Personal (BitPim, Narval, Prioritise, Task Coach, WikidPad)
+- 3D CAD/CAM (FreeCAD, Fandango, Blender, Vintech RCAM)
+- Aplicaciones Empresariales (Odoo, Tryton, Picalo, LinOTP 2, RESTx)
+- Aplicaciones de Imagen (Gnofract 4D, Gogh, imgSeek, MayaVi, VPython)
+- Aplicaciones Móviles (Aarlogic C05/3, AppBackup, Pyroute)
+- Aplicaciones de Oficina (calibre, faces, Notalon, pyspread)
+- Administradores de Información Personal (BitPim, Narval, Prioritise, Task Coach, WikidPad)
 (Fuente: https://wiki.python.org/moin/PythonProjects)
 
 Generalmente, Python es una excelente opción para:
