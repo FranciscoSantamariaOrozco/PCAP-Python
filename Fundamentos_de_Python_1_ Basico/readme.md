@@ -106,3 +106,5 @@ un recurso valioso para resolver problemas relacionados con Python y para desarr
 La certificación PCEP – Certified Entry-Level Python Programmer es un paso intermedio hacia la certificación PCAP – Certified Associate in Python Programming y el punto de partida para iniciar una carrera en el desarrollo de software, programación en Python y tecnologías relacionadas.
 
 El obtener la certificación PCEP te ayudará a destacarte de otros candidatos y te abrirá puertas.
+
+![mapa_certificaciones](../img/mapa_certificaciones.jpg)

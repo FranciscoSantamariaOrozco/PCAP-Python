@@ -169,3 +169,5 @@ La información completa sobre cómo obtener Python, cómo instalarlo y cómo us
 
 ¿Con quién debo comunicarme si tengo preguntas sobre el contenido del curso?
 Puedes dirigir todas las preguntas sobre el contenido del curso a nuestro equipo de soporte en support@openedg.org. También puedes utilizar el botón Report a Bug, disponible en la interfaz del curso, para enviar comentarios al Python Institute sobre errores, ediciones sugeridas, errores tipográficos, etc., y la función Discussion para seguir y/o contribuir a los hilos de conversación sobre temas específicos relacionados con el curso.
+
+!DISFRUTA DEL CURSO!
