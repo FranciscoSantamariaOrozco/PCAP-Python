@@ -9,6 +9,7 @@ que te permita **diseñar**, **escribir**, **depurar** y **ejecutar** programas 
 El curso te preparará para trabajos y carreras relacionadas con el ampliamente conocido **desarrollo de software**, 
 que incluye no solo la creación de código en sí como desarrollador junior, sino también el **diseño de sistemas y pruebas de software**.
 
+![fundamentos_de_python_1](/img/fundamentos_de_python_1.jpg)
 
 # Temario del Curso
 En este curso aprenderás:
@@ -66,18 +67,18 @@ Aplicaciones de Internet (BitTorrent, Jogger Publishing Assistant, TheCircle, Tw
 - Aplicaciones de Imagen (Gnofract 4D, Gogh, imgSeek, MayaVi, VPython)
 - Aplicaciones Móviles (Aarlogic C05/3, AppBackup, Pyroute)
 - Aplicaciones de Oficina (calibre, faces, Notalon, pyspread)
-- Administradores de Información Personal (BitPim, Narval, Prioritise, Task Coach, WikidPad)
+- Administradores de Información Personal (BitPim, Narval, Prioritise, Task Coach, WikidPad)  
 (Fuente: https://wiki.python.org/moin/PythonProjects)
 
 Generalmente, Python es una excelente opción para:
 
--Desarrollo Web (por ejemplo, los frameworks Django y Pyramid, micro-frameworks Flask y Bottle)
--Computación científica y numérica (por ejemplo, SciPy, una colección de paquetes con fines matemáticos, científicos y de 
+- Desarrollo Web (por ejemplo, los frameworks Django y Pyramid, micro-frameworks Flask y Bottle)
+- Computación científica y numérica (por ejemplo, SciPy, una colección de paquetes con fines matemáticos, científicos y de 
 ingeniería; Ipython, un shell interactivo que permite la edición y grabación de sesiones de trabajo)
--Educación (¡es un lenguaje brillante para enseñar programación! ¡Y es por eso que te ofrecemos este curso!)
--GUIs de Escritorio (por ejemplo, wxWidgets, Kivy, Qt)
--Desarrollo de software (control de compilación, gestión y pruebas: Scons, Buildbot, Apache Gump, Roundup, Trac)
--Aplicaciones empresariales (ERP y sistemas de comercio electrónico: Odoo, Tryton)
+- Educación (¡es un lenguaje brillante para enseñar programación! ¡Y es por eso que te ofrecemos este curso!)
+- GUIs de Escritorio (por ejemplo, wxWidgets, Kivy, Qt)
+- Desarrollo de software (control de compilación, gestión y pruebas: Scons, Buildbot, Apache Gump, Roundup, Trac)
+- Aplicaciones empresariales (ERP y sistemas de comercio electrónico: Odoo, Tryton)  
 (Fuente: https://www.python.org/about/apps)
 
 Y muchos otros proyectos y herramientas de desarrollo.
