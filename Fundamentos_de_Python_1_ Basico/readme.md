@@ -9,8 +9,7 @@ que te permita **diseñar**, **escribir**, **depurar** y **ejecutar** programas 
 El curso te preparará para trabajos y carreras relacionadas con el ampliamente conocido **desarrollo de software**, 
 que incluye no solo la creación de código en sí como desarrollador junior, sino también el **diseño de sistemas y pruebas de software**.
 
-![fundamentos_de_python_1] (/../img/fundamentos_de_python_1.jpg)
-
+![fundamentos_de_python_1] (..\img\fundamentos_de_python_1.jpg)
 # Temario del Curso
 En este curso aprenderás:
 
@@ -92,7 +91,7 @@ La certificación PCEP – Certified Entry-Level Python Programmer demuestra que
 programación informática, como tipos de datos, contenedores, funciones, condiciones y bucles, así como los aspectos más 
 importantes de la sintaxis, semántica y el entorno de ejecución del lenguaje de programación Python.
 
-<div class="pull-right"><img src=C:\Users\Francisco.Orozco\Documents\Programacion\Certif_Python\img\insignia_pcep.jpg/></div>
+----
 obtener la certificación PCEP asegura que estás familiarizado con los medios más esenciales proporcionados por Python 3, 
 que te permiten comenzar tus propios estudios en un nivel intermedio y continuar con tu desarrollo profesional.
 
