@@ -425,20 +425,19 @@ codificada en Python2. Esta es la razón por la que Python 2 todavía está en u
 demasiadas aplicaciones de Python 2 existentes para descartarlo por completo.
 
 ***NOTA***
-```
-Si se va a comenzar un nuevo proyecto de Python, **deberías usar Python 3, esta es la**
-**versión de Python que se usará durante este curso.**
 
-Es importante recordar que puede haber diferencias mayores o menores entre las
-siguientes versiones de Python 3 (p. Ej., Python 3.6 introdujo claves de diccionario
-ordenadas de forma predeterminada en la implementación de CPython). La buena noticia
-es que todas las versiones más nuevas de Python 3 son **compatibles** con las versiones
-anteriores de Python 3. Siempre que sea signficiativo e importante, intentaremos resaltar
-esas diferencias en el curso.
-
-Todos los ejemplos de código que encontrarás durante el curso se han probado con Python
-3.4, Python 3.6, Python 3.7 y Python 3.8.
-```
+>Si se va a comenzar un nuevo proyecto de Python, **deberías usar Python 3, esta es la**
+>**versión de Python que se usará durante este curso.**
+>
+>Es importante recordar que puede haber diferencias mayores o menores entre las
+>siguientes versiones de Python 3 (p. Ej., Python 3.6 introdujo claves de diccionario
+>ordenadas de forma predeterminada en la implementación de CPython). La buena noticia
+>es que todas las versiones más nuevas de Python 3 son **compatibles** con las versiones
+>anteriores de Python 3. Siempre que sea signficiativo e importante, intentaremos resaltar
+>esas diferencias en el curso.
+>
+>Todos los ejemplos de código que encontrarás durante el curso se han probado con Python
+>3.4, Python 3.6, Python 3.7 y Python 3.8.
 
 ## **Python alias CPython**
 Además de Python 2 y Python 3, existe más de una versión de cada uno.  
