@@ -111,8 +111,8 @@ Es bastante sencillo, es un ejemplo de como **transformar una parte de código q
 **función**.
 
 El mensaje enviado a la consola por la función `print()` es siempre el mismo. El código es funcional y no
-contiene errores, sin embargo imagina que tendrías que hacer si tu jefe pidiera cambiar el mensaje para que
-fuese más cortés, por ejemplo, que comience con la frase `"Por favor"`,
+contiene errores, sin embargo, imagina que tendrías que hacer si tu jefe pidiera cambiar el mensaje para que
+fuese más cortés, por poner un ejemplo, que comience con la frase `"Por favor"`.
 
 Tendrías que tomar algo de tiempo para cambiar el mensaje en todos los lugares donde aparece (podrías hacer
 uso de copiar y pegar, pero eso no lo haría más sencillo). Es muy probable que cometas errores durante el
