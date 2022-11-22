@@ -84,7 +84,7 @@ esfuerzo adicional del programador; se les llama a estas **funciones integradas*
 
 - De los **módulos preinstalados** de Python: Muchas de las funciones, las cuales comúnmente son menos utilizadas que las
 integradas, están disponibles en módulos instalados junto con Python; para poder utilizar estas funciones el programador
-debe realizar algunos pasos adicionales (se explicará acerca de esto en un momento).
+debe realizar algunos pasos adicionales (se explicará acerca de esto en un momento).´
 
 - **Directamente del código**: Tu puedes escribir tus propias funciones, colocarlas dentro del código, y usarlas libremente.
 
@@ -96,7 +96,7 @@ debe realizar algunos pasos adicionales (se explicará acerca de esto en un mome
 ## **Tu primera función**
 Observa el fragmento de código en el editor:
 
-´´´
+```
 print("Ingresa un valor: ")
 a = int(input())
 
@@ -105,7 +105,7 @@ b = int(input())
 
 print("Ingresa un valor: ")
 c = int(input())
-´´´
+```
 
 Es bastante sencillo, es un ejemplo de como **transformar una parte de código que se está repitiendo en una**
 **función**.
@@ -131,12 +131,12 @@ Se necesita **definirla**. Aquí, la palabra *definir* es significativa.
 
 Así es como se ve la definición más simple de una función: 
 
-´´´
+```
 def nombre_funcion():
     comando1
     comando2
     etc...
-´´´
+```
 
 - Siempre se comienza con la **palabra reservada** `def` (que significa *definir*).
 - Después de `def` va el **nombre de la función** (las reglas para darle nombre a las funciones son las
@@ -149,49 +149,49 @@ pero eso cambiará pronto)
 **termina donde el anidamiento termina**, se debe ser cauteloso.
 
 A continuación se **definirá** la función. Se llamará `message`.
-´´´
+```
 def message():
     print("Ingresa un valor: ")
-´´´
+```
 
 La función es muy sencilla, pero completamente **utilizable**. Se ha nombrado `message`, pero esto es opcional,
 tu puedes cambiaro. Hagamos uso de ella.
 
 El código ahora contiene la definición de la función:
-´´´
+```
 def message():
     print("Ingresa un valor: ")
 
 print("Se comienza aquí.")
 print("Se termina aquí.")
-´´´
+```
 
 Nota: no se está utilizando la función, no se está **invocando** en el código.
 
 Al correr el programa, se mostrará lo siguiente:
-´´´
+```
 Se comienza aquí.
 Se termina aquí.
-´´´
+```
 
 Esto significa que Python lee la definición de la función y la recuerda, pero no la ejecuta sin tu permiso.
 
 Se ha modificado el código, se ha insertado la **invocación de la función** entre los dos mensajes:
-´´´
+```
 def message():
     print("Ingresa un valor: ")
 
 print("Se comienza aquí.")
 message()
 print("Se termina aquí.")
-´´´  
+```  
 
 La salida ahora se ve diferente:
-´´´
+```
 Se comienza aquí.
 Ingresa un valor: 
 Se termina aquí.
-´´´
+```
 
 Prueba el código, modifícalo, experimenta con el.
 
@@ -215,7 +215,7 @@ Recuerda: Python lee el código de arriba hacia abajo. No va a adelantarse en el
 definida más adelante, el lugar correcto para definirla es antes de ser invocada.
 
 Se ha insertado un error en el siguiente código, puedes notar la diferencia?
-´´´
+```
 print("Se comienza aquí.")
 message()
 print("Se termina aquí.")
@@ -223,14 +223,14 @@ print("Se termina aquí.")
 
 def message():
     print("Ingresa un valor: ")
-´´´
+```
 
 Se ha movido la función al final del código. Podrá Python encontrarla cuando la ejecución llegue a la invocación?
 
 No, no podrá. El mensaje de error dirá: 
-´´´
+```
 NameError: name 'message' is not defined
-´´´
+```
 
 No intentes forzar a Python a encontrar funciones que no están definidas en el lugar correcto.
 
@@ -239,12 +239,12 @@ La segunda consideración es más sencilla:
 **Una función y una variable no pueden compartir el mismo nombre**.
 
 El siguiente fragmento de código es erróneo:
-´´´
+```
 def message():
     print("Ingresa un valor: ")
 
 message = 1
-´´´
+```
 
 El asignar un valor al nombre "message" causa que Python olvide su rol anterior. La función con el nombre de `message` ya no estará
 disponible.
@@ -253,7 +253,7 @@ Afortunadamente, es posible **combinar o mezclar el código con las funciones** 
 archivo fuente.
 
 Observa el siguiente código: 
-´´´
+```
 print("Se comienza aquí.")
 
 def message():
@@ -262,12 +262,12 @@ def message():
 message()
 
 print("Se termina aquí.")
-´´´
+```
 
 Puede verse extraño, pero es completamente correcto, y funciona como se necesita.
 
 Regresemos al ejemplo inicial para implementar la función de manera correcta:
-´´´
+```
 def message():
     print("Ingresa un valor: ")
 
@@ -277,7 +277,7 @@ message()
 b = int(input())
 message()
 c = int(input())
-´´´
+```
 
 El modificar el mensaje de entrada es ahora sencillo: se puede hacer con solo **modificar el código una única vez** - dentro del cuerpo
 de la función.
@@ -299,21 +299,21 @@ propias funciones y utilizarlas libremente en tu código.
 - Las funciones `lambda` (aprenderás acerca de ellas en el curso *Fundamentos de Python 2*).
 
 3. Las funciones propias se pueden definir utilizando la palabra reservada `def` y con la siguiente sintaxis:
-´´´
+```
 def tu_funcion(parametros opcionales):
     # el cuerpo de la función
-´´´
+```
 
 Se puede definir una función sin que haga uso de argumentos, por ejemplo:
-´´´
+```
 def message():    # definiendo una función
     print("Hello")    # cuerpo de la función
 
 message()    # invocación de la función
-´´´
+```
 
 También es posible definir funciones con argumentos, como la siguiente que contiene un solo parámetro:
-´´´
+```
 def hello(name):    # definiendo una función
     print("Hola,", name)    # cuerpo de la función
 
@@ -321,5 +321,5 @@ def hello(name):    # definiendo una función
 name = input("Ingresa tu nombre: ")
 
 hello(name)    # invocación de la función
-´´´
+```
 Se hablará más de las funciones parametrizadas en la siguiente sección. 
