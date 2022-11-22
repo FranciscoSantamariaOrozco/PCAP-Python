@@ -291,12 +291,12 @@ Abre Sandbox, e inténtalo tu mismo.
 pueden regresar valores.
 
 2. Existen almenos cuatro tipo de funciones básicas en Python:
-- **Funciones integradas**, las cuales son partes importantes de Python (como lo es la función `print()`). Puedes ver una lista
+    - **Funciones integradas**, las cuales son partes importantes de Python (como lo es la función `print()`). Puedes ver una lista
 completa de las funciones integradas de Python en el siguiente [enlace](https://docs.python.org/3/library/functions.html).
-- **Módulos preinstalados**, se hablará más de ellas en el curso *Fundamentos de Python 2*.
-- **Funciones definidas por el usuario**, las cuales son escritas por los programadores para los programadores, puedes escribir tus
+    - **Módulos preinstalados**, se hablará más de ellas en el curso *Fundamentos de Python 2*.
+    - **Funciones definidas por el usuario**, las cuales son escritas por los programadores para los programadores, puedes escribir tus
 propias funciones y utilizarlas libremente en tu código.
-- Las funciones `lambda` (aprenderás acerca de ellas en el curso *Fundamentos de Python 2*).
+    - Las funciones `lambda` (aprenderás acerca de ellas en el curso *Fundamentos de Python 2*).
 
 3. Las funciones propias se pueden definir utilizando la palabra reservada `def` y con la siguiente sintaxis:
 ```
