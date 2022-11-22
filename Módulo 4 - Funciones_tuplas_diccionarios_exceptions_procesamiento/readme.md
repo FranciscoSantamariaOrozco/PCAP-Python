@@ -1,4 +1,4 @@
-# **Módulo 3 - Fundamentos de Python 1**
+# **Módulo 4 - Fundamentos de Python 1**
 ## **Funciones, tuplas, diccionarios, exceptiones y procesamiento de datos**
 
 En este módulo, se cubrirán los siguientes temas:
@@ -17,7 +17,7 @@ invocado funciones para utilizarlas como herramientas, con el fin de hacer la vi
 repetitivas.
 
 Cuando se desea mostrar o imprimir algo en consola se utiliza ´print()´. Cuando se desea leer el valor de una variable se emplea
-´input()´, combinados posiblemente con ´int()´ o ´float()´.
+´input()´, combinados posiblemente con ´int()´ o ´float()´. `int()` ´´´int()´´´
 
 También se ha hecho uso de alguinos **métodos**, los cuales también son funciones, pero declarados de una manera muy específica.
 
@@ -55,3 +55,28 @@ Existe una segunda condición: **si un fragmento de código se hace tan extenso 
 **considera dividirlo en pequeños problemas por separado e implementa cada uno de llos como una función independiente**.
 
 Esta descomposición continúa hasta que se obtiene un conjunto de funciones cortas, fáciles de comprender y probar.
+
+
+## **Descomposición**
+Es muy común que un programa sea tan largo y complejo que no puede ser asignado a un solo desarrollador, y en su lugar un **equipo**
+**de desarrolladores** trabajarán en él. El problema, debe ser dividido entre varios desarrolladores de una manera en que se pueda
+asegurar su eficiencia y cooperación.
+
+Es inconcebible que más de un programador deba escribir el mismo código al mismo tiempo, por lo tanto, el trabajo debe de ser
+dividido entre todos los miembros del equipo.
+
+Este tipo de descomposición tiene diferentes propósitos, no solo se trata de **compartir el trabajo**, sino también de **compartir la**
+**responsabilidad** entre varios desarrolladores.
+
+Cada uno debe escribir un conjunto bien definido y claro de funciones, las cuales al ser **combinadas dentro de un módulo** (esto se
+clarificará un poco más adelante) nos dará como resultado el producto final.
+
+Esto nos lleva directamente a la tercera condición: si se va a dividir el trabajo entre varios programadores, **se debe descomponer el**
+**problema para permitir que el producto sea implementado como un conjunto de funciones escritas por separado empacadas**
+**juntas en diferentes módulos**.
+
+
+## **De dónde provienen las funciones?**
+En general, las funciones provienen de almenos tres lugares:
+
+- Del propio Python: 
