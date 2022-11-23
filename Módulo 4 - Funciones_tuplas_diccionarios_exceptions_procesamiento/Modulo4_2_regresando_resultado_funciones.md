@@ -187,3 +187,129 @@ None
 
 No te sorprendas la próxima vez que veas `None` como el resultado de la función, puede ser el síntoma de un
 error sutil dentro de la función.
+
+
+## **Efectos y resultados: listas y funciones**
+Existen dos preguntas adicionales que deben responderse aquí.
+
+La primera es: **Se puede enviar una lista a una función como un argumento?
+
+Por supuesto que se puede! cualquier entidad reconocible por Python puede desempeñar el papel de un   
+argumento de función, aunque debes asegurarte de que la función sea capaz de hacer uso de él.
+
+Entonces, si pasas una lista a una función, la función tiene que manejarla como una lista.
+
+Una función como la siguiente:
+```
+def list_sum(lst):
+    s = 0
+    
+    for elem in lst:
+        s += elem
+    
+    return s
+```
+
+y se invoca así:
+`print(list_sum([5, 4, 3]))`
+
+Retorna `12` como resultado, pero habrá problemas si la invocas de esta manera:
+`print(list_sum(5))`
+
+La respuesta de Python será la siguiente:
+`TypeError: 'int' object is not iterable`
+
+Esto se debe al hecho de que el **bucle `for` no pede iterar un solo valor entero**.
+
+La segunda pregunta es: **Puede una lista ser el resultado de una función?**
+
+Sí, por supuesto! Cualquier entidad reconocible por Python puede ser un resultado de función.
+Observa el código en el editor. 
+```
+def strange_list_fun(n):
+    strange_list = []
+    
+    for i in range(0, n):
+        strange_list.insert(0, i)
+    
+    return strange_list
+
+print(strange_list_fun(5))
+```
+
+La salida del programa será así:
+`[4, 3, 2, 1, 0]`
+
+Ahora puedes escribir funciones con y sin resultados.
+
+Vamos a profundizar un poco más en los problemas relaccionados con las variables en las funciones. Esto es
+esencial para crear funciones efectivas y seguras.
+
+
+## **Puntos clave**
+
+1. Puedes emplear la palabra clave reservada `return` para decirle a una función que devuelva algún valor. La instrucción `return`
+termina la función. Por ejemplo:
+```
+def multiply(a, b):
+    return a * b
+
+print(multiply(3, 4))    # salida: 12
+
+
+def multiply(a, b):
+    return
+
+print(multiply(3, 4))    # salida: None
+```
+
+2. El resultado de una función se puede asignar fácilmente a una variable, por ejemplo:
+```
+def wishes():
+    return "¡Felíz Cumpleaños!"
+
+w = wishes()
+
+print(w)    # salida:¡Felíz Cumpleaños!
+```
+
+Observa la diferencia en la salida en los siguientes dos ejemplos:
+```
+# Ejemplo 1
+def wishes():
+    print("Mis deseos")
+    return "Felíz Cumpleaños"
+
+wishes()    # salida: Mis deseos
+
+
+# Ejemplo 2
+def wishes():
+    print("Mis deseos")
+    return "Felíz Cumpleaños"
+
+print(wishes())
+
+# salida: Mis deseos
+#         Felíz Cumpleaños
+```
+
+3. Puedes usar una lista como argumento de una función, por ejemplo:
+```
+def hi_everybody(my_list):
+    for name in my_list:
+        print("Hola,", name)
+
+hi_everybody(["Adán", "Juan", "Lucía"])
+```
+
+4. Una lista también puede ser un resultado de función, por ejemplo:
+```
+def create_list(n):
+    my_list = []
+    for i in range(n):
+        my_list.append(i)
+    return my_list
+
+print(create_list(5))
+```
