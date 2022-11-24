@@ -584,3 +584,4 @@ fragmento de código que es problemático y susceptible a errores, **prueba tus 
 y trata de **manejar** las situaciones en las que alguien ingresa valores incorrectos; **comenta** las partes del código que ocultan el  
 problema. Finalmente, toma descansos y vuelve a tu código después de un tiempo con un par de ojos nuevos.
 
+  
